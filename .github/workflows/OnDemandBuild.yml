@@ -8,7 +8,7 @@ on:
 
 jobs:  
   test:
-    runs-on: arc-runner02    
+    runs-on: self-hosted    
     steps:
       - uses: actions/checkout@v4
       - name: Setup .NET (global.json)
