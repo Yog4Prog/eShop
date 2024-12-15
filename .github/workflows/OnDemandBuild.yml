@@ -19,7 +19,7 @@ on:
 
 jobs:  
   test:
-    runs-on: ubuntu-latest    
+    runs-on: arc-runner02    
     steps:
       - uses: actions/checkout@v4
       - name: Setup .NET (global.json)
